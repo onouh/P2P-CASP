@@ -1,19 +1,35 @@
 
 import socket
+from protocol import pack_message, unpack_message, INIT
 
-# Create a UDP socket
 client = socket.socket(socket.AF_INET, socket.SOCK_DGRAM)
+client.settimeout(3)
 
 server_address = ("127.0.0.1", 5000)
 
-# Send message to server
-client.sendto(b"INIT", server_address)
+message = pack_message(
+    msg_type=INIT,
+    sequence_num=1,
+    peer_id=1
+)
 
-print("INIT message sent!")
+client.sendto(message, server_address)
 
-# Receive server response
-data, address = client.recvfrom(1200)
+print("Binary INIT message sent!")
 
-print("Server response:", data.decode())
+try:
+    data, address = client.recvfrom(1212)
 
-client.close()
+    msg_type, seq, peer_id, payload = unpack_message(data)
+
+    print("Server response:")
+    print("  Message type:", msg_type)
+    print("  Sequence:", seq)
+    print("  Peer ID:", peer_id)
+    print("  Payload:", payload.decode())
+
+except socket.timeout:
+    print("Server did not respond")
+
+finally:
+    client.close()
