@@ -1,0 +1,6 @@
+built-in impairment (sim mode), netem equivalent per node:
+  server: loss 10%
+  c1: loss 10%
+  c2: loss 10%
+  c3: loss 10%
+  c4: loss 10%

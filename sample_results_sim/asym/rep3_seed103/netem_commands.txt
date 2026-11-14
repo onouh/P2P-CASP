@@ -1,0 +1,6 @@
+built-in impairment (sim mode), netem equivalent per node:
+  server: none
+  c1: delay 100ms 20ms
+  c2: delay 100ms 20ms
+  c3: none
+  c4: none

@@ -1,0 +1,6 @@
+built-in impairment (sim mode), netem equivalent per node:
+  server: none
+  c1: none
+  c2: none
+  c3: none
+  c4: none

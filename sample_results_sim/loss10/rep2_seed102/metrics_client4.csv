@@ -1,0 +1,2 @@
+peer_id,seed,completed,validated,completion_time_ms,p2p_transfer_ratio,duplicate_chunk_count,duplicate_ratio,signaling_bytes,chunk_data_bytes,signaling_overhead,mean_rtt_per_peer_ms,chunks_from_server,chunks_from_peers,chunks_from_each_peer,chunks_served_to_each_peer,chunk_timeouts,rerouted_from_server,peer_timeouts_detected,corrupt_chunks,killed
+4,102,1,1,5341.9,0.7578,0,0.0000,22080,15878,1.3906,0:27.20;1:0.42;3:0.40;2:0.39,62,194,1:59;3:76;2:59,1:65;2:80;3:66,50,1,0,0,0

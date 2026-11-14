@@ -1,0 +1,7 @@
+scenario,runs,passed
+baseline,5,5
+loss2,5,5
+loss5,5,5
+loss10,5,5
+asym,5,5
+churn,5,5

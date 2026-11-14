@@ -1,0 +1,38 @@
+[server] P2P-CASP v1 tracker/seeder on port 9023, seed=103, throttle=49.5 kbps
+[client 1] P2P-CASP v1 peer on port 57731, tracker 127.0.0.1:9023
+[client 4] P2P-CASP v1 peer on port 51699, tracker 127.0.0.1:9023
+[server] peer 4 registered from 127.0.0.1:51699
+[client 3] P2P-CASP v1 peer on port 36048, tracker 127.0.0.1:9023
+[client 2] P2P-CASP v1 peer on port 50103, tracker 127.0.0.1:9023
+[server] peer 3 registered from 127.0.0.1:36048
+[client 4] manifest received: 256 chunks of 16 bytes
+[server] peer 1 registered from 127.0.0.1:57731
+[server] peer 2 registered from 127.0.0.1:50103
+[client 4] tracker gave peer 3 at 127.0.0.1:36048
+[client 3] discovered peer 4 at 127.0.0.1:51699
+[client 3] manifest received: 256 chunks of 16 bytes
+[client 4] tracker gave peer 1 at 127.0.0.1:57731
+[client 1] discovered peer 4 at 127.0.0.1:51699
+[client 3] tracker gave peer 1 at 127.0.0.1:57731
+[client 1] discovered peer 3 at 127.0.0.1:36048
+[client 4] tracker gave peer 2 at 127.0.0.1:50103
+[client 2] discovered peer 4 at 127.0.0.1:51699
+[client 3] tracker gave peer 2 at 127.0.0.1:50103
+[client 2] discovered peer 3 at 127.0.0.1:36048
+[client 1] tracker gave peer 2 at 127.0.0.1:50103
+[client 2] tracker gave peer 1 at 127.0.0.1:57731
+[client 1] manifest received: 256 chunks of 16 bytes
+[client 2] manifest received: 256 chunks of 16 bytes
+[client 1] map complete in 3635 ms (server 31, peers 225, duplicates 0)
+[server] MAP_COMPLETE from peer 1: VALID (3635 ms)
+[client 1] server validated our map: OK
+[client 3] map complete in 3771 ms (server 99, peers 157, duplicates 0)
+[server] MAP_COMPLETE from peer 3: VALID (3771 ms)
+[client 3] server validated our map: OK
+[client 2] map complete in 3782 ms (server 29, peers 227, duplicates 0)
+[client 4] map complete in 3878 ms (server 97, peers 159, duplicates 0)
+[server] MAP_COMPLETE from peer 4: VALID (3877 ms)
+[client 4] server validated our map: OK
+[server] MAP_COMPLETE from peer 2: VALID (3782 ms)
+[client 2] server validated our map: OK
+[server] all live peers validated, ending session

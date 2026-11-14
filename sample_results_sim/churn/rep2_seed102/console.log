@@ -1,0 +1,40 @@
+[server] P2P-CASP v1 tracker/seeder on port 9027, seed=102, throttle=49.5 kbps
+[client 1] P2P-CASP v1 peer on port 46186, tracker 127.0.0.1:9027
+[server] peer 1 registered from 127.0.0.1:46186
+[client 2] P2P-CASP v1 peer on port 45630, tracker 127.0.0.1:9027
+[client 3] P2P-CASP v1 peer on port 51142, tracker 127.0.0.1:9027
+[client 4] P2P-CASP v1 peer on port 53526, tracker 127.0.0.1:9027
+[server] peer 2 registered from 127.0.0.1:45630
+[client 1] manifest received: 256 chunks of 16 bytes
+[server] peer 3 registered from 127.0.0.1:51142
+[server] peer 4 registered from 127.0.0.1:53526
+[client 1] tracker gave peer 2 at 127.0.0.1:45630
+[client 2] discovered peer 1 at 127.0.0.1:46186
+[client 2] manifest received: 256 chunks of 16 bytes
+[client 1] tracker gave peer 3 at 127.0.0.1:51142
+[client 3] discovered peer 1 at 127.0.0.1:46186
+[client 2] tracker gave peer 3 at 127.0.0.1:51142
+[client 3] discovered peer 2 at 127.0.0.1:45630
+[client 3] manifest received: 256 chunks of 16 bytes
+[client 1] tracker gave peer 4 at 127.0.0.1:53526
+[client 4] discovered peer 1 at 127.0.0.1:46186
+[client 2] tracker gave peer 4 at 127.0.0.1:53526
+[client 4] discovered peer 2 at 127.0.0.1:45630
+[client 3] tracker gave peer 4 at 127.0.0.1:53526
+[client 4] discovered peer 3 at 127.0.0.1:51142
+[client 4] manifest received: 256 chunks of 16 bytes
+[client 2] HARD KILL at 50% (peer churn test)
+[client 4] peer 2 timed out -> removed from routing
+[client 3] peer 2 timed out -> removed from routing
+[client 1] peer 2 timed out -> removed from routing
+[client 4] map complete in 3120 ms (server 75, peers 181, duplicates 0)
+[server] MAP_COMPLETE from peer 4: VALID (3119 ms)
+[client 4] server validated our map: OK
+[client 3] map complete in 3138 ms (server 75, peers 181, duplicates 0)[client 1] map complete in 3165 ms (server 73, peers 183, duplicates 0)
+
+[server] MAP_COMPLETE from peer 3: VALID (3137 ms)
+[server] MAP_COMPLETE from peer 1: VALID (3165 ms)
+[client 1] server validated our map: OK
+[client 3] server validated our map: OK
+[server] peer 2 timed out, removed from registry
+[server] all live peers validated, ending session

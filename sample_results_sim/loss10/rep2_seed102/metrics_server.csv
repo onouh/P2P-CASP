@@ -1,0 +1,2 @@
+seed,peers_registered,valid_completions,chunks_sent,valid_peers,requests_deferred_to_p2p,stale_requests_dropped,total_out_bytes_ip,max_1s_window_kbps,run_time_s
+102,4,4,280,1;2;3;4,12,1,21632,49.38,6.998
